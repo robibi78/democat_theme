@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="45869c2f-dd52-4df5-9dfb-ec3afe94aeeb" name="Antares" url="http://antares.pj.univ-amu.fr">
+        <fileTransfer host="antares.pj.univ-amu.fr" port="22" privateKey="C:\Dev\MyKeys\id_rsa" rootFolder="/var/aegir/platforms/drupal8-dev/sites/jerome.dev" accessType="SFTP" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

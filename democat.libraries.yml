@@ -1,0 +1,31 @@
+global-styling:
+  version: VERSION
+  css:
+    base:
+      css/base/elements.css: {}
+      css/base/bootstrap-grid.css: {}
+    component:
+      css/components/menu.css: {}
+
+occasion:
+  version: VERSION
+  css:
+    component:
+      css/components/occasion.css: {}
+
+fonts:
+  version: VERSION
+  css:
+    theme:
+      'https://fonts.googleapis.com/css?family=Lato:400,700,900': { type: external, minified: true }
+      'https://fonts.googleapis.com/css?family=Open+Sans': { type: external, minified: true }
+
+lightgallery:
+  version: VERSION
+  css:
+    componentn:
+      lightgallery/css/lightgallery.css: {}
+  js:
+    lightgallery/js/lightgallery.js: {}
+    lightgallery/js/lg-thumbnail.js: {}
+    js/script_lightgallery.js: {}

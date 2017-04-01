@@ -1,0 +1,20 @@
+.region-primary-menu .menu-item {
+  display: inline-block;
+}
+
+.region-primary-menu .menu-item a {
+  font-family: 'Lato', serif;
+  font-weight: 900;
+  font-size: 1.8em;
+  color: #333;
+  text-transform: uppercase;
+  padding: 0 10px 5px 10px;
+}
+
+.region-primary-menu .menu-item a:hover {
+  border-bottom: 4px solid #0a7cb9;
+}
+
+.region-primary-menu .menu-item a.is-active {
+  border-bottom: 4px solid #0a7cb9;
+}

@@ -1,0 +1,13 @@
+name: Democat
+type: theme
+base theme: bartik
+description: 'Thème Democat'
+package: Core
+version: VERSION
+core: 8.x
+libraries:
+  - democat/global-styling
+  - democat/fonts
+stylesheets-remove:
+  - '@bartik/css/components/primary-menu.css'
+  - '@bartik/css/colors.css'

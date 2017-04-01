@@ -1,0 +1,39 @@
+.view-occasions ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.occasion--teaser {
+  padding: 5px;
+  width: 200px; /* C'est pas beau en responsive*/
+  transition: ease-in 0.5s;
+}
+
+.occasion--teaser a {
+  color: #000;
+}
+
+.occasion--teaser a:hover {
+  color: #FFF;
+}
+
+.occasion--teaser:hover {
+  color: #FFF;
+  background-color: #0a7cb9;
+  /*transition: ease-out 1s;*/
+}
+
+.occasion--teaser .occasion__image {
+  display: block;
+}
+
+.occasion--teaser .occasion__titre {
+  font-family: 'Lato', serif;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.occasion--teaser .occasion__version {
+  font-family: 'Lato', serif;
+  font-weight: 400;
+}

@@ -1,0 +1,8 @@
+{% extends "@stable/field/field.html.twig" %}
+
+{# Create classes array #}
+{% set classes = [
+  bundle ~ '__' ~ field_name|replace({'field_' : ''})|clean_class,
+] %}
+
+{% set attributes = attributes.addClass(classes) %}

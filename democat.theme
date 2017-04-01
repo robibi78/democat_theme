@@ -1,0 +1,6 @@
+<?php
+
+function democat_preprocess_field(&$variables, $hook) {
+// Make additional variables available to the template.
+  $variables['bundle'] = $variables['element']['#bundle'];
+}
